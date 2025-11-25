@@ -22,9 +22,9 @@ body {
 }
 
 .logo img {
-    border-radius: 60px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    width: 80px;
+    border-radius: 0px;
+   /* box-shadow: 0 2px 10px rgba(0,0,0,0.2); */
+   width: 130px;
 }
 
 .categories {
@@ -137,6 +137,10 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .logo img{
+        border-radius: 0px;
+        width: 130px;
+    }
     .header {
         flex-direction: column;
         gap: 15px;
