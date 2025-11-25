@@ -134,22 +134,63 @@ body {
     cursor: pointer;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .header {
-        flex-direction: column;
-        gap: 15px;
-        padding: 20px;
+        padding: 15px 20px;
+        flex-wrap: wrap;
+    }
+    
+    .logo img {
+        max-width: 120px;
+        height: auto;
+    }
+    
+    .categories {
+        display: none; /* మొబైల్‌లో హిడ్ */
     }
     
     .header-sections {
-        order: -1;
+        display: none; /* మొబైల్‌లో హిడ్ - హ్యాంబర్గర్‌తో రిప్లేస్ */
+        position: absolute;
+        top: 100%;
+        left: 0;
         width: 100%;
-        justify-content: center;
+        background: white;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    
+    .header-sections.active {
+        display: flex; /* హ్యాంబర్గర్ క్లిక్ చేస్తే షో */
+    }
+    
+    .search-box {
+        order: 3;
+        width: 100%;
+        margin-top: 10px;
     }
     
     .search-input {
-        width: 200px;
+        width: 100%;
+        max-width: none;
+    }
+    
+    /* హ్యాంబర్గర్ ఐకాన్ */
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        cursor: pointer;
+        padding: 5px;
+    }
+    
+    .hamburger span {
+        width: 25px;
+        height: 3px;
+        background: #333;
+        border-radius: 3px;
+        transition: 0.3s;
     }
 }
 
