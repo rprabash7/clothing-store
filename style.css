@@ -138,15 +138,13 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .header {
-        flex-direction: row;
+        flex-direction: column;
         gap: 15px;
-        padding: 10px 20px;
-        align-items: center;
-        justify-content: space-between;
+        padding: 20px;
     }
 
     .search-input {
-        width: 100px;
+        width: 200px;
     }
     
     .categories{
