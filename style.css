@@ -139,8 +139,7 @@ body {
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        gap: 15px;
-        padding: 20px;
+        
     }
 
     .search-input {
