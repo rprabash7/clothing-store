@@ -142,7 +142,13 @@ body {
         padding: 20px;
     }
     
-    
+    .categories{
+        display: none;
+    }
+
+    .header-sections {
+        
+    }
     
     .search-input {
         width: 200px;
