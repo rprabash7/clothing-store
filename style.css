@@ -135,7 +135,23 @@ body {
 }
 
 /* Responsive Design */
-
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+    
+    .header-sections {
+        order: -1;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .search-input {
+        width: 200px;
+    }
+}
 
 .hero-banner {
     position: relative;
