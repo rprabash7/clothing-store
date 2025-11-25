@@ -145,7 +145,7 @@ body {
     .header-sections {
         order: -1;
         width: 100%;
-        justify-content: center;
+        
     }
     
     .search-input {
