@@ -141,6 +141,10 @@ body {
         gap: 15px;
         padding: 20px;
     }
+
+    .search-input {
+        width: 200px;
+    }
     
     .categories{
         display: none;
@@ -148,10 +152,6 @@ body {
 
     .header-sections {
         display: none;
-    }
-    
-    .search-input {
-        width: 200px;
     }
 }
 
