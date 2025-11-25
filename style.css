@@ -147,7 +147,7 @@ body {
     }
 
     .header-sections {
-        
+        display: none;
     }
     
     .search-input {
