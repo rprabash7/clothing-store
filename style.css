@@ -350,11 +350,10 @@ body {
     
     .section-title h2 {
         font-size: 36px;
-        text-align: center;
     }
     
     .collections-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
     
