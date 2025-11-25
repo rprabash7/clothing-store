@@ -137,10 +137,6 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .logo img{
-        border-radius: 0px;
-        width: 130px;
-    }
     .header {
         flex-direction: column;
         gap: 15px;
