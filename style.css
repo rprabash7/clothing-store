@@ -142,11 +142,7 @@ body {
         padding: 20px;
     }
     
-    .header-sections {
-        order: -1;
-        width: 100%;
-        justify-content: center;
-    }
+    
     
     .search-input {
         width: 200px;
