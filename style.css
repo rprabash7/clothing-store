@@ -236,7 +236,7 @@ body {
     }
     
     .hero-banner {
-        height: 30vh;
+        height: 35vh;
     }
 }
 
@@ -354,7 +354,9 @@ body {
     
     .collections-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 15px;
+        justify-items: center;
     }
     
     .collection-item {
